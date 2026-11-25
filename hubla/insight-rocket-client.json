@@ -1,7 +1,6 @@
 {
-  "client_id": "https://raw.githubusercontent.com/Insight-Lan/insight-assets/main/hubla/insight-rocket-client.json",
+  "client_id": "https://insight-lan.github.io/insight-assets/hubla/insight-rocket-client.json",
   "client_name": "inSight Rocket",
-  "client_uri": "https://github.com/Insight-Lan/insight-assets",
   "redirect_uris": [
     "http://127.0.0.1:8490/oauth/financeiro/retorno",
     "http://localhost:8490/oauth/financeiro/retorno"
@@ -13,6 +12,5 @@
   "response_types": [
     "code"
   ],
-  "token_endpoint_auth_method": "none",
-  "scope": "invoice:read subscription:read refund:read product:read offer:read member:read lead:read offline_access"
+  "token_endpoint_auth_method": "none"
 }
